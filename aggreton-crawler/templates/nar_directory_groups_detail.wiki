@@ -1,0 +1,12 @@
+h1. NexR 구글그룹스 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| Email || Name || Description || Admin Created || Member count || Member list ||
+{% for ggroup in data %}
+| [{{ggroup['email']}}|https://groups.google.com/a/nexr.com/forum/#!forum/{{ggroup['email'].split("@")[0]}}] | {{ggroup['name']}} | {{ggroup['description'].strip().replace("\n", "")}} | {{ggroup['adminCreated']}} | {{ggroup['members']|count}} | {expand:title=멤버}{%for member in ggroup['members']|sort%}{{ member['email'] }}\\
+{% endfor %}{expand} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

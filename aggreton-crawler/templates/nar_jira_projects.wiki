@@ -1,0 +1,11 @@
+h1. NexR Jira 프로젝트 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| Name || Lead || Id || Key || Description || Stat of status ||
+{% for project in data %}
+| [{{project['name']}}|{{project['url']}}] | {{project['lead']}} | {{project['id']}} | {{project['key']}} | {{project['description']}} | {% for statusName in stats['status']['project'][project['name']] %} {{ statusName }}:{{stats['status']['project'][project['name']][statusName]}} \\{% endfor %} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

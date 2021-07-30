@@ -1,0 +1,55 @@
+<table class="table">
+    <thead>
+    <tr>
+        <th>photo</th>
+        <th>#</th>
+        <th>name</th>
+        <th>gender</th>
+        <th>job</th>
+        <th>height</th>
+        <th>weight</th>
+        <th>birthday</th>
+        <th>agency</th>
+        <th>group</th>
+        <th>links</th>
+    </tr>
+    </thead>
+    {% for person in profile_records %}
+        <tbody>
+        <tr>
+            <td rowspan="2">
+                {% if person.thumbnail_filename != "" %}
+                    <a target="_blank" href="https://www.google.com/search?tbm=isch&q={{ person.name }}"><img
+                            src="/photo/{{ person.thumbnail_filename }}" height=50/></a>
+                {% endif %}
+            </td>
+            <td>{{ loop.index }}</td>
+            <td><span class="person name"><a target="_blank"
+                                             href="http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&sq=&o=&q={{ person.name }}">{{ person.name }}</a></span>
+            </td>
+            <td>{{ person.gender|default("", True) }} </td>
+            <td>{{ person.job|default("", True) }} </td>
+            <td>{{ person.height|default("", True) }} <small>{% if person.height %}cm{% endif %}</small></td>
+            <td>{{ person.weight|default("", True) }} <small>{% if person.weight %}kg{% endif %}</small></td>
+            <td>{{ person.birthday|default("", True) }} </td>
+            <td><a target="_blank" href="http://search.daum.net/search?q={{ person.belong|urlencode }}">{{ person.belong }}</a> </td>
+            <td><a target="_blank" href="http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&sq=&o=&q={{ person.belong_group|default("", True) }}">{{ person.belong_group|default("", True) }}</a> </td>
+            <td>{% if person.site_twitter %}<a target="_blank" href="{{ person.site_twitter }}"><i class="fa fa-twitter-square"></i></a>{% endif %}
+                {% if person.site_facebook %}<a target="_blank" href="{{ person.site_facebook }}"><i class="fa fa-facebook-square"></i>
+                    </a>{% endif %}</td>
+        </tr>
+        <tr>
+        <td> </td>
+        <td>{%  if person.english_name == None %} {{ person.name|han2romanji }} {% else %} {{ person.english_name }} {% endif %}</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

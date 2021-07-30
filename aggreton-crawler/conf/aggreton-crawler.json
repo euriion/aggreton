@@ -1,0 +1,76 @@
+{
+    "schedule-list": [
+        {
+            "module_name": "nar_directory_groups_detail",
+            "class_name": "NarDirectoryGroupsDetail",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_directory_users_detail",
+            "class_name": "NarDirectoryUsersDetail",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_confluence_users",
+            "class_name": "NarConfluenceUsers",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_ucloudbiz_servers",
+            "class_name": "NarUcloudbizServers",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_jira_projects",
+            "class_name": "NarJiraProjects",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_jira_stat",
+            "class_name": "NarJiraStat",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "nar_kt_users",
+            "class_name": "NarKtUsers",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "23",
+            "minute": "0"
+        },
+        {
+            "module_name": "search_feeder_pptx",
+            "class_name": "NarFeederPptx",
+            "year": "*",
+            "month": "*",
+            "day": "*",
+            "hour": "0,6,12,18",
+            "minute": "0"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{% include 'header.html' %}
+<body>
+{% include 'navbar.html' %}
+{% include 'north.html' %}
+</div> <!-- /container -->
+
+<div class="container">
+<!-- Kpop singer list
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h3 id="tables">Admin data stats</h3>
+            </div>
+
+            <div class="bs-example table-responsive">
+Name count: {{ data['people_name_count'] }} <br />
+Profile count: {{ data['people_profile_count'] }} <br />
+            </div><!-- /example -->
+          </div>
+        </div>
+      </div>
+</div>
+{% include 'footer.html' %}

@@ -1,0 +1,11 @@
+h1. NexR 위키 사용자 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| logo || id || name || email ||
+{% for user in data %}
+| !{{user[4]}}|border=1,width=20! | [{{user[0]}}|{{user[3]}}] | {{user[1]}} | {%if user[5] == "deleted"%}{strike}{%endif%}{{user[2]}}{%if user[5] == "deleted"%}{strike}{%endif%} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

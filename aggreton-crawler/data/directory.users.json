@@ -1,0 +1,1859 @@
+[
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uad00\ub9ac\uc790 admin", 
+      "givenName": "\uad00\ub9ac\uc790", 
+      "familyName": "admin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2013-07-15 05:55:45", 
+    "primaryEmail": "admin@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "admin@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/p2yDa0k5isgBok94cc_JYm4y1Bc\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:33:07", 
+    "customerId": "C01keeow2", 
+    "id": "118171435162538529792", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ud64d\uc131\ud559 Aiden", 
+      "givenName": "\ud64d\uc131\ud559", 
+      "familyName": "Aiden"
+    }, 
+    "ipWhitelisted": false, 
+    "thumbnailPhotoUrl": "/s2/photos/public/AIbEiAIAAABDCLjDjJ71iMOkZyILdmNhcmRfcGhvdG8qKDhmZWVjMmNmZTAwMmY4MTFkMzhmY2VmYzVkZTBkODg4OTIxZDg3MDYwAfKA0dbV1xBv5_HKBxBS7BbGlvAm", 
+    "creationTime": "2011-05-18 00:46:16", 
+    "primaryEmail": "aiden.hong@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "aiden.hong@nexr.com"
+      }, 
+      {
+        "address": "rhive.admin@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/l4KxhGLhgpRDoUain22VclHknrI\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:38:04", 
+    "customerId": "C01keeow2", 
+    "lastLoginHours": 9, 
+    "id": "107442493359693963704", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "rhive.admin@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc624\uc138\ubd09 Aiden", 
+      "givenName": "\uc624\uc138\ubd09", 
+      "familyName": "Aiden"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 13, 
+    "creationTime": "2011-05-11 02:09:36", 
+    "primaryEmail": "Aiden.Oh@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Aiden.Oh@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/3FD8Es8dU0dG2mW2QdDj8VWqvGc\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 10:31:47", 
+    "customerId": "C01keeow2", 
+    "id": "117854425022284223457", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uad8c\uc7ac\ucca0 Alvin", 
+      "givenName": "\uad8c\uc7ac\ucca0", 
+      "familyName": "Alvin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 41, 
+    "creationTime": "2013-11-11 04:30:02", 
+    "primaryEmail": "alvin.kwon@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "alvin.kwon@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/gxdd-OEwuGF4vdAqqQ3q4Wzww_s\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-21 06:24:36", 
+    "customerId": "C01keeow2", 
+    "id": "100734687736390801992", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uae08\uc8fc Alyssa", 
+      "givenName": "\uae40\uae08\uc8fc", 
+      "familyName": "Alyssa"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2011-06-07 09:16:12", 
+    "primaryEmail": "alyssa.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "alyssa.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/rujiStntyHWZapCmF-JghCNo1z0\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:55:03", 
+    "customerId": "C01keeow2", 
+    "id": "103317440033228290144", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uad11\uc77c Andrew", 
+      "givenName": "\uae40\uad11\uc77c", 
+      "familyName": "Andrew"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2013-04-01 01:05:05", 
+    "primaryEmail": "andrew.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "andrew.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/pCFj77ODDljASSkpfj2cdUatBIQ\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:49:01", 
+    "customerId": "C01keeow2", 
+    "id": "107124920056974356851", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc720\ucda9\ud604 Antony", 
+      "givenName": "\uc720\ucda9\ud604", 
+      "familyName": "Antony"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2011-08-31 08:01:38", 
+    "primaryEmail": "antony.ryu@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "antony.ryu@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/2OnnIbOJV22Erq9yITVDyyKM1YQ\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:48:14", 
+    "customerId": "C01keeow2", 
+    "id": "117496261083648822185", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubc15\uc11c\uc740 Azrael", 
+      "givenName": "\ubc15\uc11c\uc740", 
+      "familyName": "Azrael"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 66, 
+    "creationTime": "2011-05-11 02:09:52", 
+    "primaryEmail": "Azrael.Park@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Azrael.Park@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/UKxrkvUl_bDwloYjOgQI86lWVac\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-20 05:06:35", 
+    "customerId": "C01keeow2", 
+    "id": "105718387751675723770", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc724\ubcf5\uc8fc Bella", 
+      "givenName": "\uc724\ubcf5\uc8fc", 
+      "familyName": "Bella"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 13, 
+    "creationTime": "2011-05-11 02:09:57", 
+    "primaryEmail": "Bella.Yun@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Bella.Yun@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/5nWcBCe1z26jy5EPXId7z7PP-Io\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 10:13:19", 
+    "customerId": "C01keeow2", 
+    "id": "114388433022170118903", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc548\uc218\ud658 Benjamin", 
+      "givenName": "\uc548\uc218\ud658", 
+      "familyName": "Benjamin"
+    }, 
+    "ipWhitelisted": false, 
+    "thumbnailPhotoUrl": "/s2/photos/public/AIbEiAIAAABECNO5zrq7u92nkgEiC3ZjYXJkX3Bob3RvKig2NmRkMDY3ZGRjNjNlZTY0NTRlOTdhNTliMWI0MGE5ZTFkMzE5OWFkMAFvMC6Gj0xT9zNSr17JUCBuh-CeJQ", 
+    "creationTime": "2013-09-10 01:41:40", 
+    "primaryEmail": "benjamin.ahn@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "benjamin.ahn@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/Nqa1WX6ZzNeX5q-c5ogX3pRCFzY\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 13:53:22", 
+    "customerId": "C01keeow2", 
+    "lastLoginHours": 10, 
+    "id": "110542774839231618259", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc870\ubcf4\ud604 Boris", 
+      "givenName": "\uc870\ubcf4\ud604", 
+      "familyName": "Boris"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 16, 
+    "creationTime": "2013-10-25 04:42:42", 
+    "primaryEmail": "boris.cho@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "boris.cho@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/Ohn4l_VFb-Ne6jQKuQrAu_6eo_o\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 07:37:44", 
+    "customerId": "C01keeow2", 
+    "id": "115429307253456090468", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uc601\uc6b0 Brandon", 
+      "givenName": "\uae40\uc601\uc6b0", 
+      "familyName": "Brandon"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2011-05-11 02:09:59", 
+    "primaryEmail": "Brandon.Kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Brandon.Kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/6290cut116z2TbKvPi3JIUcoVlA\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:04:19", 
+    "customerId": "C01keeow2", 
+    "id": "114238167533432364220", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ucd5c\uc735\ud0dc Brian", 
+      "givenName": "\ucd5c\uc735\ud0dc", 
+      "familyName": "Brian"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 21, 
+    "creationTime": "2011-10-07 00:36:01", 
+    "primaryEmail": "brian.choi@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "brian.choi@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/YwNR_oyBPCY9tm_d78s4m-7J1HQ\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 02:28:55", 
+    "customerId": "C01keeow2", 
+    "id": "101655720782119084164", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc2e0\uc815\uc548 Bruce", 
+      "givenName": "\uc2e0\uc815\uc548", 
+      "familyName": "Bruce"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 22, 
+    "creationTime": "2013-10-28 02:31:33", 
+    "primaryEmail": "bruce.shin@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "bruce.shin@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/AZyth-o99UPUQiPVlWJyk8ovv5E\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 01:17:21", 
+    "customerId": "C01keeow2", 
+    "id": "105997121024876031895", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "Damien Genet", 
+      "givenName": "Damien", 
+      "familyName": "Genet"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 23, 
+    "creationTime": "2012-03-14 23:47:28", 
+    "primaryEmail": "damien.genet@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "damien.genet@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/a9sA0BO0z4Ja4iKPvqzyMfLDQ4g\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 00:27:50", 
+    "customerId": "C01keeow2", 
+    "id": "113413483397695530055", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc6b0\uc131\ud55c David", 
+      "givenName": "\uc6b0\uc131\ud55c", 
+      "familyName": "David"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 10, 
+    "creationTime": "2011-05-11 02:10:14", 
+    "primaryEmail": "David.Woo@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "David.Woo@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/RBomKw2Lv5gUzl9TibkSeyBAWDc\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 13:57:43", 
+    "customerId": "C01keeow2", 
+    "id": "117921257157531379302", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubc31\uc9c4\uc6b0 Dennis", 
+      "givenName": "\ubc31\uc9c4\uc6b0", 
+      "familyName": "Dennis"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 202, 
+    "creationTime": "2013-10-01 01:55:02", 
+    "primaryEmail": "dennis.baek@nexr.com", 
+    "emails": [
+      {
+        "address": "strife.baek@nexr.com"
+      }, 
+      {
+        "primary": true, 
+        "address": "dennis.baek@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/aopXZN2IRP-2ddq7sH8NjxFkpjg\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-14 13:34:56", 
+    "customerId": "C01keeow2", 
+    "id": "105381744283347683950", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "strife.baek@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\ubcd1\uc900 Dominic", 
+      "givenName": "\uae40\ubcd1\uc900", 
+      "familyName": "Dominic"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 11, 
+    "creationTime": "2013-07-17 01:23:01", 
+    "primaryEmail": "dominic.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "dominic.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/bVVoZl_QAZ44olzu3HBvNPeK-dM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 12:49:47", 
+    "customerId": "C01keeow2", 
+    "id": "108741196396343854950", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubbfc\uc601\uadfc Drake", 
+      "givenName": "\ubbfc\uc601\uadfc", 
+      "familyName": "Drake"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 17, 
+    "creationTime": "2013-08-01 07:32:15", 
+    "primaryEmail": "drake.min@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "drake.min@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/loMP2Jt29qRQrYqyYxbBR2Y3Bak\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 06:47:09", 
+    "customerId": "C01keeow2", 
+    "id": "108942657240079304372", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc2ec\uac15\uc12d Dwayne", 
+      "givenName": "\uc2ec\uac15\uc12d", 
+      "familyName": "Dwayne"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 19, 
+    "creationTime": "2013-07-01 06:28:24", 
+    "primaryEmail": "dwayne.shim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "dwayne.shim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/RmSAetYWBAHrg_7KGCTp-xkCsHM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 04:39:59", 
+    "customerId": "C01keeow2", 
+    "id": "104567750760452184401", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc774\uc2b9\ud654 Ebreeze", 
+      "givenName": "\uc774\uc2b9\ud654", 
+      "familyName": "Ebreeze"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 18, 
+    "creationTime": "2012-09-27 06:03:19", 
+    "primaryEmail": "ebreeze@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "ebreeze@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/YMgdBn7VCnhJjF2dAC2KOuR8e5g\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 05:13:34", 
+    "customerId": "C01keeow2", 
+    "id": "114268465372558596399", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uc5f0\uc12d Eric", 
+      "givenName": "\uae40\uc5f0\uc12d", 
+      "familyName": "Eric"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2011-05-11 02:10:19", 
+    "primaryEmail": "Eric.Kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Eric.Kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/RrUV3lcVpe1wwHJvB1sq5okAaWg\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:11:55", 
+    "customerId": "C01keeow2", 
+    "id": "101897633381195412364", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubc15\uc740\uc219 Erica", 
+      "givenName": "\ubc15\uc740\uc219", 
+      "familyName": "Erica"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2011-05-11 02:10:21", 
+    "primaryEmail": "Erica.Park@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Erica.Park@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/HQKeU_8-mVynCklJy4X3SrLj6j4\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:30:13", 
+    "customerId": "C01keeow2", 
+    "id": "101766093825101797391", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uac15\uc7ac\uc6d0 Francis", 
+      "givenName": "\uac15\uc7ac\uc6d0", 
+      "familyName": "Francis"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2013-01-23 06:32:32", 
+    "primaryEmail": "francis.kang@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "francis.kang@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/dOq1zjSSkYdwRId1IlYaagZ_9RI\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:44:22", 
+    "customerId": "C01keeow2", 
+    "id": "107408812160357511965", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uac15\uc5f0\uc218 Ged", 
+      "givenName": "\uac15\uc5f0\uc218", 
+      "familyName": "Ged"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 14, 
+    "creationTime": "2013-06-12 02:53:50", 
+    "primaryEmail": "ged.kang@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "ged.kang@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/R8ASS66Jf4z9EPz2TFrBHpnse_U\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 09:13:43", 
+    "customerId": "C01keeow2", 
+    "id": "105058305959712743794", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uadfc\ud638 Justin", 
+      "givenName": "\uae40\uadfc\ud638", 
+      "familyName": "Justin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2012-08-06 08:02:50", 
+    "primaryEmail": "geunho.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "geunho.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/s7343HsmK3O4UxYkNQ4iiqLdHIk\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:09:29", 
+    "customerId": "C01keeow2", 
+    "id": "116467015126882795976", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "admin github", 
+      "givenName": "admin", 
+      "familyName": "github"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 3982, 
+    "creationTime": "2012-04-23 08:21:23", 
+    "primaryEmail": "github.admin@nexr.com", 
+    "emails": [
+      {
+        "address": "git.admin@nexr.com"
+      }, 
+      {
+        "primary": true, 
+        "address": "github.admin@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/LkmvwveeGD9jVWJS-03rSg0q9wM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-06-10 01:18:53", 
+    "customerId": "C01keeow2", 
+    "id": "117188701887165296232", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "git.admin@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc131\ud76c\uc218 Harry", 
+      "givenName": "\uc131\ud76c\uc218", 
+      "familyName": "Harry"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 66, 
+    "creationTime": "2011-12-01 00:15:13", 
+    "primaryEmail": "harry.sung@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "harry.sung@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/lAsdQAgS-_-acqXynGKpYYUz5VE\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-20 05:47:14", 
+    "customerId": "C01keeow2", 
+    "id": "112144191787933807038", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ub178\ud604\uc815 Helen", 
+      "givenName": "\ub178\ud604\uc815", 
+      "familyName": "Helen"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 11, 
+    "creationTime": "2013-05-06 09:29:11", 
+    "primaryEmail": "helen.noh@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "helen.noh@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/dF1TTjvZs3Xx1JadroMMpdv-hOo\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 12:46:14", 
+    "customerId": "C01keeow2", 
+    "id": "105725753536909213394", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc774\ud638\uc12d Hosup", 
+      "givenName": "\uc774\ud638\uc12d", 
+      "familyName": "Hosup"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 372, 
+    "creationTime": "2013-04-25 07:03:59", 
+    "primaryEmail": "ho1102.lee@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "ho1102.lee@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/qrb8sVleTpLHMsT7P6HH_ES7HPs\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-07 11:24:34", 
+    "customerId": "C01keeow2", 
+    "id": "108869929143017114848", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubb38\uc7ac\uc120 Jake", 
+      "givenName": "\ubb38\uc7ac\uc120", 
+      "familyName": "Jake"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 68, 
+    "creationTime": "2013-04-29 08:28:43", 
+    "primaryEmail": "jake.moon@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "jake.moon@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/-6NSpiNf7r0sRgNH-U0LcOEIL5A\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-20 03:44:33", 
+    "customerId": "C01keeow2", 
+    "id": "102831149765196212699", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc815\ud574\uc11d James", 
+      "givenName": "\uc815\ud574\uc11d", 
+      "familyName": "James"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 12, 
+    "creationTime": "2013-07-22 08:06:16", 
+    "primaryEmail": "james.jung@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "james.jung@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/HcuEMUsjm0jC0SYv2ZXxsBpO0BQ\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 11:53:14", 
+    "customerId": "C01keeow2", 
+    "id": "101539711600942730333", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\ubbfc\uc11d James", 
+      "givenName": "\uae40\ubbfc\uc11d", 
+      "familyName": "James"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2011-06-22 05:15:16", 
+    "primaryEmail": "james.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "james.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/sx11tJj0PuCTyGWbzwnpApnTPXw\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:21:16", 
+    "customerId": "C01keeow2", 
+    "id": "110951329381738725947", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ud55c\uc7ac\uc120 Jason", 
+      "givenName": "\ud55c\uc7ac\uc120", 
+      "familyName": "Jason"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 260, 
+    "creationTime": "2011-05-11 02:10:26", 
+    "primaryEmail": "Jason.Han@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Jason.Han@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/TYbN-KfHyB8qWA67WTy_JgJPZ1M\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-12 03:23:55", 
+    "customerId": "C01keeow2", 
+    "id": "107244128653375211061", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubc15\uc815\ube48 Jeongbin", 
+      "givenName": "\ubc15\uc815\ube48", 
+      "familyName": "Jeongbin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 38, 
+    "creationTime": "2013-06-18 05:10:53", 
+    "primaryEmail": "jeongbin.park@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "jeongbin.park@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/QDplFQG1Lt_HkEB2Ulx2JFzGd1U\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-21 09:06:41", 
+    "customerId": "C01keeow2", 
+    "id": "107685892983387478152", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ub178\ud76c\uc12d Jerome.rho", 
+      "givenName": "\ub178\ud76c\uc12d", 
+      "familyName": "Jerome.rho"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2013-02-28 04:54:48", 
+    "primaryEmail": "jerome.rho@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "jerome.rho@nexr.com"
+      }, 
+      {
+        "address": "jerome75@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/aCNU5FjdZ8Uol7CXnjFXMrecNAs\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:23:37", 
+    "customerId": "C01keeow2", 
+    "id": "107913625723340637438", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "jerome75@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc774\uc885\ud76c Jesse", 
+      "givenName": "\uc774\uc885\ud76c", 
+      "familyName": "Jesse"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2011-05-11 02:10:33", 
+    "primaryEmail": "Jesse.Lee@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Jesse.Lee@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/RHvDRgRYwoGXomZpjJbOiwEqfr0\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:49:20", 
+    "customerId": "C01keeow2", 
+    "id": "110743695842318899508", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "Hyung-Joo Lim", 
+      "givenName": "Hyung-Joo", 
+      "familyName": "Lim"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 213, 
+    "creationTime": "2011-05-11 03:50:33", 
+    "primaryEmail": "Joe.Lim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Joe.Lim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/xHWIa5Iy7LSD9fLnOEb8o9mh-ug\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-14 02:30:29", 
+    "customerId": "C01keeow2", 
+    "id": "113946801632924777562", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc548\ud76c\ud0dd Johan", 
+      "givenName": "\uc548\ud76c\ud0dd", 
+      "familyName": "Johan"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 13, 
+    "creationTime": "2013-03-18 02:12:15", 
+    "primaryEmail": "johan.ahn@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "johan.ahn@nexr.com"
+      }, 
+      {
+        "address": "john.ahn@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/Mbut0g865MCqidtMbEEGgaDJ7uk\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 10:48:20", 
+    "customerId": "C01keeow2", 
+    "id": "107734476165882711487", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "john.ahn@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc1a1\uc7ac\uc6d0 John", 
+      "givenName": "\uc1a1\uc7ac\uc6d0", 
+      "familyName": "John"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 14, 
+    "creationTime": "2011-05-06 00:43:22", 
+    "primaryEmail": "john.song@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "john.song@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/ontaZ5FH8SMHKuxr7Rgnpvs9XYQ\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 09:16:13", 
+    "customerId": "C01keeow2", 
+    "id": "100281068409086738103", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc190\uc131\ubbfc Kay", 
+      "givenName": "\uc190\uc131\ubbfc", 
+      "familyName": "Kay"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 40, 
+    "creationTime": "2013-01-03 01:46:07", 
+    "primaryEmail": "kay.son@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "kay.son@nexr.com"
+      }, 
+      {
+        "address": "kay@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/bMkq3vZPdUO5nQBSK7gQbu7CvD0\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-21 07:16:04", 
+    "customerId": "C01keeow2", 
+    "id": "109281494450407684799", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "kay@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uacbd\ub0a8 Kevin", 
+      "givenName": "\uae40\uacbd\ub0a8", 
+      "familyName": "Kevin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 280, 
+    "creationTime": "2013-10-28 02:33:05", 
+    "primaryEmail": "kevin.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "kevin.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/z-T63tPVd7DCB9CHTsYgbW-C4P4\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-11 07:59:47", 
+    "customerId": "C01keeow2", 
+    "id": "106684289775590083887", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc815\uad6c\ubc94 Klaus", 
+      "givenName": "\uc815\uad6c\ubc94", 
+      "familyName": "Klaus"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 90, 
+    "creationTime": "2011-05-11 02:10:44", 
+    "primaryEmail": "Klaus.Jung@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Klaus.Jung@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/7lOHcx0OZaC_Y5Ixswde6UjeprM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-19 05:41:38", 
+    "customerId": "C01keeow2", 
+    "id": "113377897555779371023", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc2e0\ubbf8\uc601 Lia", 
+      "givenName": "\uc2e0\ubbf8\uc601", 
+      "familyName": "Lia"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2012-12-18 00:40:23", 
+    "primaryEmail": "lia.shin@nexr.com", 
+    "emails": [
+      {
+        "address": "miyoung@nexr.com"
+      }, 
+      {
+        "primary": true, 
+        "address": "lia.shin@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/7LcwUsDwvgIHRL2s0aFRGpYeGno\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:57:28", 
+    "customerId": "C01keeow2", 
+    "id": "101689528938532298579", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "miyoung@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubcc0\uce58\ud6c8 Luigi", 
+      "givenName": "\ubcc0\uce58\ud6c8", 
+      "familyName": "Luigi"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 36, 
+    "creationTime": "2011-10-24 00:43:06", 
+    "primaryEmail": "luigi.byun@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "luigi.byun@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/_ybupg40VJhPBWDBcro4Za5DaYo\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-21 11:46:10", 
+    "customerId": "C01keeow2", 
+    "id": "102285353795621686761", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc774\ud76c\uc9c4 Grace", 
+      "givenName": "\uc774\ud76c\uc9c4", 
+      "familyName": "Grace"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 21, 
+    "creationTime": "2013-01-30 02:12:28", 
+    "primaryEmail": "magiraffe@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "magiraffe@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/b5oUUqP5nlfrOV8V3hv9p9nTO9g\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 02:48:40", 
+    "customerId": "C01keeow2", 
+    "id": "117500095752154088927", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc790\ub3d9\ud654 CRAN", 
+      "givenName": "\uc790\ub3d9\ud654", 
+      "familyName": "CRAN"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2013-03-11 06:55:20", 
+    "primaryEmail": "mining@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "mining@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/WbdNdweMNmkBaZYwfUG-G5xIANw\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:12:11", 
+    "customerId": "C01keeow2", 
+    "id": "116080147187024517159", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ub958\uc2b9\uc6b0 Navis", 
+      "givenName": "\ub958\uc2b9\uc6b0", 
+      "familyName": "Navis"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 17, 
+    "creationTime": "2011-05-11 02:10:50", 
+    "primaryEmail": "Navis.Ryu@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Navis.Ryu@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/mIEc7rh1yFK9OhCn3VOIWLoMsGU\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 06:10:09", 
+    "customerId": "C01keeow2", 
+    "id": "101700108273087157352", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uacbd\uc724 Neil", 
+      "givenName": "\uae40\uacbd\uc724", 
+      "familyName": "Neil"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2011-10-31 08:45:06", 
+    "primaryEmail": "neil.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "neil.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/iZD4mN3QH5a0MnutLt4wJKOKsIk\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:06:32", 
+    "customerId": "C01keeow2", 
+    "id": "115825106129124447113", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uad00\ub9ac\uc790_02 nexr.project", 
+      "givenName": "\uad00\ub9ac\uc790_02", 
+      "familyName": "nexr.project"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 2107, 
+    "creationTime": "2013-08-26 06:32:26", 
+    "primaryEmail": "nexr.project@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "nexr.project@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/lsz9LfdT-q6wzG5VatQT1ZEyA5o\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-08-27 04:05:42", 
+    "customerId": "C01keeow2", 
+    "id": "102431829579442753182", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uad00\ub9ac\uc790_01 nexr.system", 
+      "givenName": "\uad00\ub9ac\uc790_01", 
+      "familyName": "nexr.system"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 3138, 
+    "creationTime": "2013-07-10 11:49:34", 
+    "primaryEmail": "nexr.system@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "nexr.system@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/QVJsrIVj4skE4AajxUtoN7o-yLc\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-07-15 05:16:02", 
+    "customerId": "C01keeow2", 
+    "id": "114857941623252177643", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uc601\uc6b1 Peter", 
+      "givenName": "\uae40\uc601\uc6b1", 
+      "familyName": "Peter"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 9, 
+    "creationTime": "2013-07-15 06:01:11", 
+    "primaryEmail": "peter.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "peter.kim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/ZCRPpf8_aRAt_0js9TbWnNEKDNM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 14:36:37", 
+    "customerId": "C01keeow2", 
+    "id": "102453054126181143474", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ud55c\uc778\ud638 Ryan", 
+      "givenName": "\ud55c\uc778\ud638", 
+      "familyName": "Ryan"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2011-05-11 02:10:56", 
+    "primaryEmail": "Ryan.Han@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Ryan.Han@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/zAyd8Z4uifbwnraxIvcj1YuIAm0\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:58:06", 
+    "customerId": "C01keeow2", 
+    "id": "104423111625391738624", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ub178\uc2dc\ud669 Simon", 
+      "givenName": "\ub178\uc2dc\ud669", 
+      "familyName": "Simon"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 14, 
+    "creationTime": "2013-08-12 08:06:04", 
+    "primaryEmail": "simon.roh@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "simon.roh@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/TesLODiLduvo-pPhssq3UjcwZs4\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 09:13:43", 
+    "customerId": "C01keeow2", 
+    "id": "107506319834238832277", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uae40\uc0c1\uc9c4 sjin", 
+      "givenName": "\uae40\uc0c1\uc9c4", 
+      "familyName": "sjin"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 616, 
+    "creationTime": "2013-04-23 06:05:47", 
+    "primaryEmail": "sjin.kim@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "sjin.kim@nexr.com"
+      }, 
+      {
+        "address": "sjkim@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": true, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/Oq6ZCH4zZp4NEQ6GJ6Uq8vz3fDM\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-10-28 07:28:05", 
+    "customerId": "C01keeow2", 
+    "id": "107477021812087591710", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "sjkim@nexr.com"
+    ]
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\ubc30\uadfc\uc544 Sophie", 
+      "givenName": "\ubc30\uadfc\uc544", 
+      "familyName": "Sophie"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 14, 
+    "creationTime": "2011-12-01 00:17:06", 
+    "primaryEmail": "sophie.bae@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "sophie.bae@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/qdfGMO-q6I_-ozIKLuriDHDMqd0\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 09:07:50", 
+    "customerId": "C01keeow2", 
+    "id": "107606902810699236547", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uacfd\uc0c1\ubbfc Steve", 
+      "givenName": "\uacfd\uc0c1\ubbfc", 
+      "familyName": "Steve"
+    }, 
+    "ipWhitelisted": false, 
+    "thumbnailPhotoUrl": "/s2/photos/public/AIbEiAIAAABDCL7C1e63wfyUaiILdmNhcmRfcGhvdG8qKDhlNTIzOTY2YzlhODVhMjQ3MDE4NjJhNzdkNGNhOTcxM2ZmMTg5MDQwAf4oSORNKo6hZ7uvfTeTDJt45dw3", 
+    "creationTime": "2011-05-17 02:33:00", 
+    "primaryEmail": "steve.kwak@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "steve.kwak@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/049_EVnyuuP5ffwW6D3qrQ6eOjU\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:59:10", 
+    "customerId": "C01keeow2", 
+    "lastLoginHours": 15, 
+    "id": "107649911573235196222", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc774\uce58\uadfc Terry", 
+      "givenName": "\uc774\uce58\uadfc", 
+      "familyName": "Terry"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 15, 
+    "creationTime": "2013-09-23 01:31:52", 
+    "primaryEmail": "terry.lee@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "terry.lee@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/eSeiBvV8T2YqK9V00m3LSN1-QMc\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 08:42:37", 
+    "customerId": "C01keeow2", 
+    "id": "111163889482164641759", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc591\uc6d0\uad6d Tim", 
+      "givenName": "\uc591\uc6d0\uad6d", 
+      "familyName": "Tim"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 16, 
+    "creationTime": "2011-05-11 02:11:07", 
+    "primaryEmail": "Tim.Yang@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "Tim.Yang@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/D7GgWZroCikWETlshZqes3CzSpk\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 07:24:43", 
+    "customerId": "C01keeow2", 
+    "id": "112893176611521723476", 
+    "orgUnitPath": "/"
+  }, 
+  {
+    "agreedToTerms": true, 
+    "kind": "admin#directory#user", 
+    "includeInGlobalAddressList": true, 
+    "name": {
+      "fullName": "\uc6b0\uc724\uc11d Yoon", 
+      "givenName": "\uc6b0\uc724\uc11d", 
+      "familyName": "Yoon"
+    }, 
+    "ipWhitelisted": false, 
+    "lastLoginHours": 10, 
+    "creationTime": "2013-10-15 01:45:17", 
+    "primaryEmail": "yoon.woo@nexr.com", 
+    "emails": [
+      {
+        "primary": true, 
+        "address": "yoon.woo@nexr.com"
+      }, 
+      {
+        "address": "yoon@nexr.com"
+      }
+    ], 
+    "changePasswordAtNextLogin": false, 
+    "isDelegatedAdmin": false, 
+    "isMailboxSetup": true, 
+    "isAdmin": false, 
+    "etag": "\"7FbWezOO_tqatqP_9JJOcwhTs-o/iDwbrvT9uw7VQ5izUBpaYrf6sm8\"", 
+    "suspended": false, 
+    "lastLoginTime": "2013-11-22 13:33:47", 
+    "customerId": "C01keeow2", 
+    "id": "113315816633595574653", 
+    "orgUnitPath": "/", 
+    "aliases": [
+      "yoon@nexr.com"
+    ]
+  }
+]

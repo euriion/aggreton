@@ -1,0 +1,12 @@
+h1. NexR UcloudBiz 디스크 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+
+|| 연결상태 || 디스크 이름 || VM이름 || 붙임 || 생성 || 파괴됨 || 장치ID || 제공 코멘트 || 추출가능 || 제품타입 || 용량 || 상태 || 스토리지 || 유형 ||
+{% for item in data %}
+| {%if item['virtualmachineid'] == '' %}{color:red}분리{color}{%else%}{color:green}연결{color}{%endif%} | {{item['name']}} | {{item['vmdisplayname']}} | {{item['attached']}} | {{item['created']}} | {{item['destroyed']}} | {{item['deviceid']}} | {{item['diskofferingdisplaytext']}} | {{item['isextractable']}} | {{item['producttype']}} | {{item['size']}} | {{item['state']}} | {{item['storage']}} | {{item['type']}} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

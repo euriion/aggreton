@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'tt0142m';
+	src: url('./tt0142m.eot');
+	src: local('tt0142m'), url('./tt0142m.woff') format('woff'), url('./tt0142m.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_9722">Text with this font applied</p> */
+.fontsforweb_fontid_9722 {
+	font-family: 'tt0142m' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

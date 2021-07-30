@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+@font-face {
+    font-family: "MuseoSans500";
+    src: url("/static/fonts/MuseoSans_500-webfont.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'tt0142m';
+	src: url('/static/fonts/tt0142m/tt0142m.eot');
+	src: local('tt0142m'), url('/static/fonts/tt0142m/tt0142m.woff') format('woff'), url('/static/fonts/tt0142m/tt0142m.ttf') format('truetype');
+}
+
+@fontfamily: "MuseoSans500",  'Nanum Gothic', 'Microsoft Yahei', 'Yuanti SC', 'Trebuchet MS', 'Verdana', 'Tahoma', 'Arial';
+@fontlogo: "MuseoSans500";
+
+body {
+    font-family: @fontfamily;
+    font-size: 13px;
+  div {
+    .bs-docs-section {
+      .clearfix {
+        div {
+          div {
+            font-family: @fontfamily;
+          }
+        }
+      }
+    }
+  }
+}
+
+body > div.bs-docs-section.clearfix > div > div > div > div > div.navbar-header > a {
+    font-family: @fontlogo;
+    font-size: 28px;
+}
+
+body > div:nth-child(2) > h4 {
+    font-family: @fontfamily;
+}
+
+#tables {
+    font-family: @fontfamily;
+}
+
+.footer
+{
+  position: relative;
+  height: 25px;
+  clear: both;
+  padding-top: 2px;
+  color: #fff;
+  text-align: center;
+  background-color: #666;
+}
+
+
+.container hr {
+    margin: 2px 0;
+    }
+
+.person.name {
+    font-weight: bold;
+}

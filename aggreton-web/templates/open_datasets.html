@@ -1,0 +1,31 @@
+{% include 'header.html' %}
+<body>
+{% include 'navbar.html' %}
+{% include 'north.html' %}
+<table class="table table-hover">
+  <tr><th><input type="checkbox"/></th><th>URL</th><th>Description</th></tr>
+{% for fields in data %}
+  <tr><td><input type="checkbox"/></td>
+    <td><a href="{{ fields[0] }}" target="_blank">{{ fields[0] }}</a></td>
+    <td>{{ fields[1] }}</td></tr>
+{% endfor %}
+</table>
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ url_for('static', filename='bootstrap') }}/js/jquery.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-transition.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-alert.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-modal.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-dropdown.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-scrollspy.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-tab.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-tooltip.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-popover.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-button.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-collapse.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-carousel.js"></script>
+<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-typeahead.js"></script>
+
+</body>
+</html>

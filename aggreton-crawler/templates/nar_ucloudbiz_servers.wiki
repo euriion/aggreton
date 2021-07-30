@@ -1,0 +1,11 @@
+h1. NexR UcloudBiz 서버 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| 이름 || IP || 상품스펙 || 코어 || 메모리 || 코어속도 || 도메인 || HA여부 || 템플릿 || 서버유형 || 상태 || Zone || 서버유형n || 계정 || 생성 || 하이퍼바이저 || Root디스크유형 || Root디스크ID ||
+{% for item in data|dictsort %}
+| {%if item[1]['state'] != 'Running' %}{color:red}{%else%}{color:black}{%endif%}{{ item[1]['displayname'] }}{color} | {{ item[1]['nic'][0]['ipaddress'] }} | {{ item[1]['serviceofferingname'] }} | {{ item[1]['cpunumber'] }} |  {{ item[1]['memory'] }} | {{ item[1]['cpuspeed'] }} | {{ item[1]['domain'] }} | {{ item[1]['haenable'] }} | {{ item[1]['templatename'] }} | {{ item[1]['servertype'] }} | {{ item[1]['state'] }} | {{ item[1]['zonename'] }} | {{ item[1]['servertype_new'] }} | {{ item[1]['account'] }}| {{ item[1]['created'] }} | {{ item[1]['hypervisor'] }} | {{ item[1]['rootdevicetype'] }} | {{ item[1]['rootdeviceid'] }} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

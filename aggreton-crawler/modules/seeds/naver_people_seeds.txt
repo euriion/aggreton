@@ -1,0 +1,3 @@
+http://people.search.naver.com/search.naver?where=nexearch&query=%EB%AF%BC%EC%95%84&sm=tab_txc&ie=utf8&key=PeopleService&os=185682
+http://people.search.naver.com/search.naver?sm=tab_hty&where=nexearch&query=%EC%95%84%EC%9D%B4%EC%9C%A0&ie=utf8&x=0&y=0
+http://people.search.naver.com/search.naver?where=nexearch&query=%EC%86%90%EB%82%98%EC%9D%80&sm=tab_txc&ie=utf8&key=PeopleService&os=212299

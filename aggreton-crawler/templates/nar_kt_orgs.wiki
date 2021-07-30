@@ -1,0 +1,12 @@
+h1. KT 계열사 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+{info} ※ 일부 비계열사(파견근무)가 포함되어 있습니다. {info}
+
+|| 회사코드 || 명칭 || 태스크여부 || 기타여부 || 하위조직유무 || 직원수 ||
+{% for kt_org in data %}
+| {{kt_org[0]}} | {{kt_org[1]}} | {{kt_org[2]}} | {{kt_org[3]}} | {{kt_org[4]}} | {{kt_org[6]}} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

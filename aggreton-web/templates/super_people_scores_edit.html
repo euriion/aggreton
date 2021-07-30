@@ -1,0 +1,177 @@
+{% include 'header.html' %}
+<body>
+{% include 'navbar.html' %}
+{% include 'north.html' %}
+</div> <!-- /container -->
+<div class="container">
+    <div class="bs-docs-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+
+                    <form class="form-horizontal" role="form" action="{{ url_for("super_people_scores_edit") }}" method="get">
+                        <div class="form-group">
+                            <h4><label for="inputType" class="col-md-2 control-label">PROFILE SEARCH</label></h4>
+
+                            <div class="input-group col-md-3">
+                                <input name="p" type="text" class="form-control focusedInput"
+                                       placeholder="{{ input['p'] }}" autofocus/>
+                                <input type="hidden" name="c" value="{{ input['c'] }}"/>
+                                <span class="input-group-btn"><button type="submit" class="btn btn-default">Search
+                                </button></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                {% if data['peopleprofile_records'] != None and data['peopleprofile_records']|length != 0 and data['peoplename_records']|length != 0 %}
+                    <div>
+                        <h4 id="tables">Search results(的搜索结果) - Profile</h4>
+                    </div>
+                    <div class="bs-example table-responsive">
+                        <div class="col-md-7"><table class="table table-striped">
+                            {% for person in data['peopleprofile_records'] %}
+                                <tbody>
+                                {#    class="warning"#}
+                                <tr>
+                                    <td rowspan="15">
+                                        {% if person.thumbnail_filename != "" %}
+                                            <a target="_blank"
+                                               href="https://www.google.com/search?tbm=isch&q={{ person.name }}"><img
+                                                    src="/photo/{{ person.thumbnail_filename }}"/></a>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                <tr>
+                                <th>ID</th>
+                                    <td><span class="person name"><a target="_blank"
+                                                                     href="http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&sq=&o=&q={{ person.name }}">{{ person.id }}</a></span>
+                                    </td>
+                                    <td rowspan="15">
+                                        <form name="beauty_score" action="{{ url_for("super_people_scores_edit") }}?p={{ input['p'] }}&c={{ input['c'] }}" method="post">
+                                            <input type="hidden" name="profile_id" value="{{ person.id }}" />
+                                            <input type="hidden" name="command" value="beauty_score_apply" />
+                                        beauty:<input type="text" name="beauty_score" value="{{ person.beauty_score|default("", True) }}"/>
+                                            <input type="submit" value="apply" />
+                                        </form>
+                                    </td>
+                                </tr>
+                                </tr>
+                                <th>이름</th>
+                                    <td><span class="person name"><a target="_blank"
+                                                                     href="http://search.daum.net/search?w=tot&DA=YZRR&t__nil_searchbox=btn&sug=&sq=&o=&q={{ person.name }}">{{ person.name }}</a></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <th>성별</th>
+                                    <td>{{ person.gender|default("", True) }} </td>
+                                </tr>
+                                <tr>
+                                <th>신장</th>
+                                    <td>{{ person.height|default("", True) }} </td>
+                                </tr>
+                                <tr>
+                                <th>체중</th>
+                                    <td>{{ person.weight|default("", True) }} </td>
+                                </tr>
+                                <tr>
+                                <th>생일</th>
+                                    <td>{{ person.birthday|default("", True) }} </td>
+                                </tr>
+                                <tr>
+                                    <th>소속</th>
+                                    <td>{{ person.belong }} </td>
+                                </tr>
+                                <tr>
+                                    <th>그룹</th>
+                                    <td>{{ person.belong_group|default("", True) }} </td>
+                                </tr>
+                                <tr>
+                                <th>사이트</th>
+                                    <td>{% if person.site_twitter %}<a target="_blank" href="{{ person.site_twitter }}">
+                                        Twitter</a>{% endif %} {% if person.site_facebook %}
+                                        <a target="_blank" href="{{ person.site_facebook }}">Facebook</a>{% endif %}
+                                    </td>
+
+                            {% endfor %}
+                            </tbody>
+                        </table></div>
+                    </div><!-- /example -->
+                    </div>
+                    </div>
+                    </div>
+                {% elif input['p'] == "" %}
+                    <div>
+                        <div class="container">
+                            <div class="alert alert-warning">
+                                    <h4>You should input name which do you want to get information.</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                {% elif data['peoplename_records'] == None or data['peoplename_records']|length == 0 %}
+                    <div>
+                        <div class="well">
+                            <div class="container">
+                                <h4>No results found.
+                                    Do you want add this name to requested list? we will collect information about
+                                    this
+                                    person.</h4>
+                            </div>
+
+                            <form class="container form-horizontal" role="form" action="/add" method="post">
+                                <div class="form-group">
+                                    <div class="input-group col-md-3">
+                                        <input name="name" type="hidden" class="form-control focusedInput"
+                                               placeholder="{{ input['p'] }}"
+                                               autofocus/>
+                                        <input type="hidden" name="category" value="{{ input['c'] }}"/>
+                                        <input type="hidden" name="p" value="{{ input['p'] }}"/>
+                                        <button type="submit" class="btn btn-primary">Add "{{ input['p'] }}" to
+                                            name
+                                            list
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="well-lg span6">
+                            <div class="row"><h5>We recommend you use Korean search engines.</h5></div>
+                            <div class="row"><h5> Search "{{ input['p'] }}" in
+                                <a class="label label-info" target="_blank"
+                                   href="http://search.daum.net/search?q={{ input['p'] }}">Daum</a>
+                                or
+                                <a class="label label-info" target="_blank"
+                                   href="http://search.naver.com/search.naver?ie=utf8&query={{ input['p'] }}">Naver</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                {% else %}
+                    <div>
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="well span6">
+                                    <h4><label class="label label-danger">{{ input['p'] }}</label> exists in our people
+                                        profile list.</h4>
+
+                                    <h4>But we are still preparing information about this person.</h4>
+                                </div>
+                            </div>
+
+                            <div class="well-lg span6">
+                                <div class="row"><h5>We recommend you use Korean search engines.</h5></div>
+                                <div class="row"><h5> Search "{{ input['p'] }}" in
+                                    <a class="label label-info" target="_blank"
+                                       href="http://search.daum.net/search?q={{ input['p'] }}">Daum</a>
+                                    or
+                                    <a class="label label-info" target="_blank"
+                                       href="http://search.naver.com/search.naver?ie=utf8&query={{ input['p'] }}">Naver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+</div>
+{% include 'footer.html' %}

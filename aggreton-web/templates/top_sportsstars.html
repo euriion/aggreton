@@ -1,0 +1,40 @@
+{% include 'header.html' %}
+<body>
+{% include 'navbar.html' %}
+{% include 'north.html' %}
+</div> <!-- /container -->
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- <script src="{{ url_for('static', filename='bootstrap') }}/js/jquery.js"></script> -->
+<!-- <script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-transition.js"></script>
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-alert.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-modal.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-dropdown.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-scrollspy.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-tab.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-tooltip.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-popover.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-button.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-collapse.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-carousel.js"></script>#}
+{#<script src="{{ url_for('static', filename='bootstrap') }}/js/bootstrap-typeahead.js"></script>#}
+ -->
+<div class="container">
+{% set profile_records = data['profile_records'] %}
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h3 id="tables">{{ page['sub_title'] }}</h3>
+            </div>
+
+            <div class="bs-example table-responsive">
+              {% include 'sub_profile_list.html' %}
+            </div><!-- /example -->
+          </div>
+        </div>
+      </div>
+</div>
+{% include 'footer.html' %}

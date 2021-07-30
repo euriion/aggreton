@@ -1,0 +1,11 @@
+h1. NexR 구글그룹스 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| Email || Name || Description || Admin Created ||
+{% for ggroup in data %}
+| {{ggroup['email']}} | {{ggroup['name']}} | {{ggroup['description'].strip().replace("\n", "")}} | {{ggroup['adminCreated']}} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

@@ -1,0 +1,11 @@
+h1. NexR 이메일 목록
+
+{% include 'wiki_warning_message.wiki' %}
+
+총 {{ data | count }}개
+|| primaryEmail || name || emails || creationTime || lastLoginTime || lastLoginHours || suspended ||
+{% for user in data %}
+| {{user['primaryEmail']}} | {{user['name']['fullName']}} | {%for email in user['emails']%}{%if email['primary'] != True %}{{email['address']}} {%endif%}{%endfor%} | {{user['creationTime']}} | {{user['lastLoginTime']}} | {{user['lastLoginHours']}} | {{user['suspended']}} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

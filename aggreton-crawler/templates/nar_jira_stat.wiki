@@ -1,0 +1,34 @@
+h1. NexR Jira 상태 현황
+
+{% include 'wiki_warning_message.wiki' %}
+
+h2. 전체 status 현황
+
+|| Status || Count ||
+{% for statusName in stats['status']['total'].keys() %}
+| {{ statusName }} | {{ stats['status']['total'][statusName] }} |
+{% endfor %}
+
+h2. 프로젝트 목록 및 status 현황
+
+총 {{ data | count }}개
+|| Name || Lead || Id || Key || Description || Stat of status ||
+{% for project in data %}
+| [{{project['name']}}|{{project['url']}}] | {{project['lead']}} | {{project['id']}} | {{project['key']}} | {{project['description']}} | {% for statusName in stats['status']['project'][project['name']] %} {{ statusName }}:{{stats['status']['project'][project['name']][statusName]}} \\{% endfor %} |
+{% endfor %}
+
+h2. assignee 별 status 현황
+
+|| No || Assinee || Stat of status ||
+{% for assignee in stats['status']['assignee'].keys() | sort %}
+| {{loop.index}} | [{{ assignee }}|http://jira.nexrcorp.com/secure/ViewProfile.jspa?name={{ assignee }}] | {% for statusName in stats['status']['assignee'][assignee] %} {{ statusName }}:{{stats['status']['assignee'][assignee][statusName]}} \\{% endfor %} |
+{% endfor %}
+
+h2. reporter 별 status 현황
+
+|| No || Reporter || Stat of status ||
+{% for reporter in stats['status']['reporter'].keys() | sort %}
+| {{loop.index}} | [{{ reporter }}|http://jira.nexrcorp.com/secure/ViewProfile.jspa?name={{ reporter }}] | {% for statusName in stats['status']['reporter'][reporter] %} {{ statusName }}:{{stats['status']['reporter'][reporter][statusName]}} \\{% endfor %} |
+{% endfor %}
+
+{% include 'wiki_footer.wiki' %}

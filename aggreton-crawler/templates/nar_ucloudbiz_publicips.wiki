@@ -1,0 +1,12 @@
+h1. NexR UcloudBiz Public IP 목록
+
+{% include 'wiki_header.wiki' %}
+
+총 {{ data | count }}개
+
+|| 공인IP || 설명 || 포트포워딩 수 || 포트포워딩 목록 ||
+{% for item in data %}
+| {{ item['ipaddress'] }} | {{ item['ipdesc'] }} | {{ item['portforwarding_rules'] | count }} | {expand:title=포워딩 목록 보기}{%for rule in item['portforwarding_rules'] %} {{ rule['protocol'] }}: {{ rule['publicport'] }}{% if rule['publicportend'] %}-{{ rule['publicportend'] }}{% endif %} ⇢ {{ rule['privateport'] }}{% if rule['privateportend'] %}-{{ rule['privateportend'] }}{% endif %} *{{rule['virtualmachinedisplayname']}}*\\
+{% endfor %}{expand} |
+{% endfor %}
+{% include 'wiki_footer.wiki' %}
